@@ -47,5 +47,12 @@ function add (num1, num2) {
 
 console.log(add(1, 3));
 
+function isNegative(num) {
+    if (num >= 0) {
+        return false
+    } else {
+        return true
+    }
+} console.log(isNegative(5))
 
 
